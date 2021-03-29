@@ -18,8 +18,9 @@ The high-level concepts are relevant when applied to .NET Core (and .Net5) appli
    * Scaffold Models & Context from Nuget Package Manager Console
       * from the correct project directory, and set the default project (from the Console)  [reference](https://docs.microsoft.com/en-us/ef/core/cli/powershell#scaffold-dbcontext)
 
-      Scaffold-DbContext -Connection "_[your_connection_string]_" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
-       
+    Scaffold-DbContext -Connection "_[your_connection_string]_" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
    * Scaffold controllers & views as before
    
    * _note_ After scaffolding, move the line to configure and use the dbcontext from the context file to the startup file.
