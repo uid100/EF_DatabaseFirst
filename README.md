@@ -1,7 +1,7 @@
 # EF_DatabaseFirst
 Scaffold Models, Context, Controllers, Views from existing SQL database
 
-(MS-Docs EF Database First tutorial)[https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/database-first-development/setting-up-database]
+[MS-Docs EF Database First tutorial](https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/database-first-development/setting-up-database)
 
 The above linked Microsoft tutorial demonstrates:
   * Adding, configuring, and deploying a SQL database project from a Visual Studio Solution
@@ -10,14 +10,14 @@ The above linked Microsoft tutorial demonstrates:
   
 The high-level concepts are relevant when applied to .NET Core (and .Net5) applications.
    * Add another project to the solution using the ASP.NET Core Web App (Model-View-Controller) [C#] template.
-   * Add Entity Framework Packages to the new project
+   * Add Entity Framework Packages to the new project ( & _build and set as startup project_ )
       * EntityFrameworkCore
       * EntityFrameworkCore.Tools
       * EntityFrameworkCore.SqlServer
       * EntityFrameworkCore.Design
-      * build and set as startup project
+      * 
    * Scaffold Models & Context from Nuget Package Manager Console
-      * from the correct project directory, and set the default project (from the Console)  (reference)[https://docs.microsoft.com/en-us/ef/core/cli/powershell#scaffold-dbcontext]
+      * from the correct project directory, and set the default project (from the Console)  [reference](https://docs.microsoft.com/en-us/ef/core/cli/powershell#scaffold-dbcontext)
 
    Scaffold-DbContext -Connection "_[your_connection_string]_" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
        
