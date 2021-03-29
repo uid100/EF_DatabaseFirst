@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ContosoUniversityData", "ContosoUniversityData\ContosoUniversityData.sqlproj", "{A902ED4D-B4BD-4C84-ABCC-32FE45793C88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoSite", "ContosoSite\ContosoSite.csproj", "{D5954F1F-C1C4-42FE-BDB0-39B5D09B369B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoWebCore", "ContosoWebCore\ContosoWebCore.csproj", "{0DDA7B12-24EB-4A85-AA09-1EDAF72F285C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A902ED4D-B4BD-4C84-ABCC-32FE45793C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A902ED4D-B4BD-4C84-ABCC-32FE45793C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A902ED4D-B4BD-4C84-ABCC-32FE45793C88}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A902ED4D-B4BD-4C84-ABCC-32FE45793C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A902ED4D-B4BD-4C84-ABCC-32FE45793C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A902ED4D-B4BD-4C84-ABCC-32FE45793C88}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D5954F1F-C1C4-42FE-BDB0-39B5D09B369B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5954F1F-C1C4-42FE-BDB0-39B5D09B369B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5954F1F-C1C4-42FE-BDB0-39B5D09B369B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5954F1F-C1C4-42FE-BDB0-39B5D09B369B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DDA7B12-24EB-4A85-AA09-1EDAF72F285C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDA7B12-24EB-4A85-AA09-1EDAF72F285C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDA7B12-24EB-4A85-AA09-1EDAF72F285C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDA7B12-24EB-4A85-AA09-1EDAF72F285C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40D011DC-2F02-4364-A079-04560BE337D4}
+	EndGlobalSection
+EndGlobal
