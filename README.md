@@ -11,15 +11,16 @@ The above linked Microsoft tutorial demonstrates:
 The high-level concepts are relevant when applied to .NET Core (and .Net5) applications.
    * Add another project to the solution using the ASP.NET Core Web App (Model-View-Controller) [C#] template.
    * Add Entity Framework Packages to the new project
-         * EntityFrameworkCore
-         * EntityFrameworkCore.Tools
-         * EntityFrameworkCore.SqlServer
-         * EntityFrameworkCore.Design
+      * EntityFrameworkCore
+      * EntityFrameworkCore.Tools
+      * EntityFrameworkCore.SqlServer
+      * EntityFrameworkCore.Design
       * build and set as startup project
    * Scaffold Models & Context from Nuget Package Manager Console
-      * from the correct project directory, and set the default project (from the Console)
-      * Scaffold-DbContext -Connection "_[your_connection_string]_" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
-        (reference)[https://docs.microsoft.com/en-us/ef/core/cli/powershell#scaffold-dbcontext]
+      * from the correct project directory, and set the default project (from the Console)  (reference)[https://docs.microsoft.com/en-us/ef/core/cli/powershell#scaffold-dbcontext]
+
+   Scaffold-DbContext -Connection "_[your_connection_string]_" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+       
    * Scaffold controllers & views as before
    
    * _note_ After scaffolding, move the line to configure and use the dbcontext from the context file to the startup file.
