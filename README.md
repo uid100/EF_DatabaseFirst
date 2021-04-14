@@ -1,3 +1,4 @@
+![icon](https://raw.githubusercontent.com/uid100/EF_DatabaseFirst/master/images/EntityFramework.png)
 # EF_DatabaseFirst
 Scaffold Models, Context, Controllers, Views from existing SQL database
 
